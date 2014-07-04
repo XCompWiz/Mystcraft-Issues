@@ -1,0 +1,59 @@
+commands.myst.tpx.usage=/tpx [subject:player] <targer:player | target:dim [x y z]>
+commands.myst.tpx.fail.nosubject=Teleport subject invalid. No sailin' t'day.
+commands.myst.tpx.fail.noworld=There be no such sea as number %d. No sailin' t'day.
+
+commands.myst.time.usage=/time <set|add> <value> [dim]
+commands.myst.time.fail.noworld=Those seas be unknown.  Here be monsters.
+commands.myst.time.set=Set the time to %d in dimension %d
+commands.myst.time.set.all=Set the time to %d in all the lands.
+commands.myst.time.added=Added %d to the time in dimension %d
+commands.myst.time.added.all=Added %d to the time in all the lands.
+
+commands.myst.toggledownfall.usage=/toggledownfall [dim]
+commands.myst.downfall.success=Toggled downfall in dimension %d
+commands.myst.downfall.fail.nodim=No dimension set.
+
+commands.myst.agebook.usage=/myst-agebook [dim]
+commands.myst.twi.usage=/myst-twi [dim] [true|false]
+commands.myst.meteor.usage=/myst-spawnmeteor
+commands.myst.permissions.usage=/myst-permissions <player> <restrict|permit> <entry|depart> <all|dimid>
+commands.myst.chunkregen.usage=/myst-regenchunk [range] [dimId] [chunkX] [chunkZ]
+
+tile.myst.receptacle.name=Port o' Books
+tile.myst.unstable.name=Death Effect
+tile.myst.unstable.blue.name=Blue Death
+tile.myst.unstable.red.name=Scarlet Death
+tile.myst.unstable.purple.name=Evenin's Death
+tile.myst.unstable.white.name=White Death
+tile.myst.unstable.black.name=Black Death
+tile.myst.crystal.name=Sparkly Stuff
+tile.myst.lectern.name=Treasarrr Map Holder
+tile.myst.bookstand.name=Stand o' Books
+tile.myst.linkmodifier.name=Link Modifier
+tile.myst.bookbinder.name=Book Binder
+tile.myst.inkmixer.name=Kraken Blood Mixer
+tile.myst.linkportal.name=Link Portal
+tile.myst.starfissure.name=Fairies' Pit
+tile.myst.writing_desk.name=Scribblen' Table
+
+item.myst.agebook.name=Descriptive Book
+item.myst.linkbook.name=Return t' Port
+item.myst.notebook.name=Scribblen' Book
+item.myst.page.name=Magic Paper
+item.myst.unlinkedbook.name=Unlinked Link Book
+item.myst.writingdesk.name=Writing Desk
+item.myst.vial.name=Bottle o' Kraken Blood
+
+fluid.myst.ink.black=Kraken's Blood
+tile.myst.fluid.myst.ink.black.name=Kraken's Blood
+
+achievement.myst.symbol=Sailin' On a Pond
+achievement.myst.symbol.desc=Find Some Fool's Notes
+achievement.myst.write=The Art: A Primer
+achievement.myst.write.desc=Steal Some Fool's Notes
+achievement.myst.agebook=One Way Ticket
+achievement.myst.agebook.desc=Craft a Descriptive Book. Thar be no sailin' back without a way home!
+achievement.myst.linkbook=Tie a String
+achievement.myst.linkbook.desc=Craft a Linking Book. Good, now ye won't be stuck in strange lands!
+achievement.myst.quinn=Yer name wouldn't be Quinn?
+achievement.myst.quinn.desc=Take a one way journey towards Davy Jones' Locker. Be there a way back?

@@ -1,0 +1,59 @@
+commands.myst.tpx.usage=/tpx [source:joueur] <cible:joueur | cible:dimension [x y z]>
+commands.myst.tpx.fail.nosubject=Joueur source invalide. Pas de tp.
+commands.myst.tpx.fail.noworld=Impossible de récupérer la dimension %d. Pas de tp.
+
+commands.myst.time.usage=/time <set(définir)|add(ajouter)> <valeur> [dimension]
+commands.myst.time.fail.noworld=La dimension cible n'est pas chargée
+commands.myst.time.set=Le temps est désormais de %d dans la dimension %d
+commands.myst.time.set.all=Le temps est désormais de %d dans toutes les dimensions
+commands.myst.time.added=Ajouté %d au temps de la dimension %d
+commands.myst.time.added.all=Ajouté %d au temps de toutes les dimensions
+
+commands.myst.toggledownfall.usage=/toggledownfall [dimension]
+commands.myst.downfall.success=Chutes de pluie basculée dans la dimension %d
+commands.myst.downfall.fail.nodim=Auncune dimension saisie
+
+commands.myst.agebook.usage=/myst-agebook [dimension]
+commands.myst.twi.usage=/myst-twi [dimension] [true(vrai)|false(faux)]
+commands.myst.meteor.usage=/myst-spawnmeteor
+commands.myst.permissions.usage=/myst-permissions <joueur> <restrict(restreindre)|permit(permettre)> <entry(l'entrée)|depart(la sortie)> <all(tous)|dimid(numéro de la dimension)>
+commands.myst.chunkregen.usage=/myst-regenchunk [rayon] [numéro de la dimension] [chunkX] [chunkZ]
+
+tile.myst.receptacle.name=Receptacle pour Livre
+tile.myst.unstable.name=Détérioration
+tile.myst.unstable.blue.name=Détérioration Bleue
+tile.myst.unstable.red.name=Détérioration Rouge
+tile.myst.unstable.purple.name=Détérioration Violette
+tile.myst.unstable.white.name=Détérioration Blanche
+tile.myst.unstable.black.name=Détérioration Noire
+tile.myst.crystal.name=Crystal
+tile.myst.lectern.name=Table de Lecture
+tile.myst.bookstand.name=Étagère
+tile.myst.linkmodifier.name=Éditeur de Liens
+tile.myst.bookbinder.name=Machine à Relier
+tile.myst.inkmixer.name=Mélangeur d'Encre
+tile.myst.linkportal.name=Portail
+tile.myst.starfissure.name=Fracture Stellaire
+tile.myst.writing_desk.name=Bureau d'Écriture
+
+item.myst.agebook.name=Livre Descriptif
+item.myst.linkbook.name=Livre Lié
+item.myst.notebook.name=Cahier
+item.myst.page.name=Page
+item.myst.unlinkedbook.name=Livre Délié
+item.myst.writingdesk.name=Bureau d'Écriture
+item.myst.vial.name=Fiole d'encre
+
+fluid.myst.ink.black=Encre Noire
+tile.myst.fluid.myst.ink.black.name=Encre Noire
+
+achievement.myst.symbol=Petite étape du Voyage
+achievement.myst.symbol.desc=Trouver un Symbole
+achievement.myst.write=L'Art : Commencement
+achievement.myst.write.desc=Copier un Symbole
+achievement.myst.agebook=Aller sans Retour
+achievement.myst.agebook.desc=Fabriquer un Livre Descriptif. N'oubliez pas que c'est un billet sans retour !
+achievement.myst.linkbook=Nouer une ficelle
+achievement.myst.linkbook.desc=Fabriquer un Livre Lié. Bien, maintenant vous pourrez revenir !
+achievement.myst.quinn=Appellez-moi Quinn
+achievement.myst.quinn.desc=Voyager dans une dimension sans Livre Lié. Espérez qu'il y ai une sortie !

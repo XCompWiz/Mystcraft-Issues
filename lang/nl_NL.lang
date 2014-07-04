@@ -1,0 +1,59 @@
+commands.myst.tpx.usage=/tpx [onderwerp:speler] <doel:speler | doel:dimensie [x y z]>
+commands.myst.tpx.fail.nosubject=Ongeldig teleportatie onderwerp. Geen teleport.
+commands.myst.tpx.fail.noworld=Wereld voor dimensie %d nie gevonden. Geen teleport.
+
+commands.myst.time.usage=/time <set|add> <waarde> [dimensie]
+commands.myst.time.fail.noworld=Doel dimensie is niet geladen
+commands.myst.time.set=Tijd verzet naar %d in dimensie %d
+commands.myst.time.set.all=Tijd verzet naar %d in alle dimensies
+commands.myst.time.added=%d aan de tijd toegevoegd in dimensie %d
+commands.myst.time.added.all=%d aan de tijd toegevoegd in alle dimensies
+
+commands.myst.toggledownfall.usage=/toggledownfall [dimensie]
+commands.myst.downfall.success=Neerslag omgeschakeld in dimensie %d
+commands.myst.downfall.fail.nodim=Geen dimensie gezet
+
+commands.myst.agebook.usage=/myst-agebook [dimensie]
+commands.myst.twi.usage=/myst-twi [dimensie] [true|false]
+commands.myst.meteor.usage=/myst-spawnmeteor
+commands.myst.permissions.usage=/myst-permissions <speler> <restrict|permit> <entry|depart> <all|dimensie>
+commands.myst.chunkregen.usage=/myst-regenchunk [bereik]
+
+tile.myst.receptacle.name=Boekenhouder
+tile.myst.unstable.name=Verval Effect
+tile.myst.unstable.blue.name=Blauw Verval
+tile.myst.unstable.red.name=Rood Verval
+tile.myst.unstable.purple.name=Paars Verval
+tile.myst.unstable.white.name=Wit Verval
+tile.myst.unstable.black.name=Zwart Verval
+tile.myst.crystal.name=Kristal
+tile.myst.lectern.name=Lessenaar
+tile.myst.bookstand.name=Boekenstand
+tile.myst.linkmodifier.name=Verbindingswijziger
+tile.myst.bookbinder.name=Boekenbinder
+tile.myst.inkmixer.name=Inkt Mixer
+tile.myst.linkportal.name=Verbindingsportaal
+tile.myst.starfissure.name=Sterren Kloof
+tile.myst.writing_desk.name=Schrijftafel
+
+item.myst.agebook.name=Beschrijvend Boek
+item.myst.linkbook.name=Verbindingsboek
+item.myst.notebook.name=Notitieboek
+item.myst.page.name=Pagina
+item.myst.unlinkedbook.name=Ongelinkt Verbindingsboek
+item.myst.writingdesk.name=Schrijftafel
+item.myst.vial.name=Inkt Flesje
+
+fluid.myst.ink.black=Zwarte Inkt
+tile.myst.fluid.myst.ink.black.name=Zwarte Inkt
+
+achievement.myst.symbol=Kleine stap van de reis
+achievement.myst.symbol.desc=Vind een symbool
+achievement.myst.write=De kunst: Een grondlaag
+achievement.myst.write.desc=Kopiëer een symbool
+achievement.myst.agebook=Enkele reis
+achievement.myst.agebook.desc=Vervaardig een beschrijvend boek. Vergeet niet dat het een enkele reis is!
+achievement.myst.linkbook=Bind een draad
+achievement.myst.linkbook.desc=Vervaardig een verbindingsboek. Goed, nu kan je terug gaan!
+achievement.myst.quinn=Noem mij maar Quinn
+achievement.myst.quinn.desc=Reis naar een dimensie zonder een verbindingsboek. Hoop maar dat er een uitgang is!
