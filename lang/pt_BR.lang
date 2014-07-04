@@ -1,0 +1,59 @@
+commands.myst.tpx.usage=/tpx [sujeito:jogador] <destino:jogador | destino:dim [x y z]>
+commands.myst.tpx.fail.nosubject=Sujeito a ser transportado inválido. Sem tp.
+commands.myst.tpx.fail.noworld=Não foi possível encontrar a dimensão %d. Sem tp.
+
+commands.myst.time.usage=/time <set|add> <valor> [dim]
+commands.myst.time.fail.noworld=Dimensão alvo não está carregada.
+commands.myst.time.set=Tempo alterado para %d na dimensão %d.
+commands.myst.time.set.all=Tempo alterado para %d em todas as dimensões.
+commands.myst.time.added=Adicionado %d ao tempo da dimensão %d.
+commands.myst.time.added.all=Adicionado %d ao tempo de todas as dimensões.
+
+commands.myst.toggledownfall.usage=/toggledownfall [dim]
+commands.myst.downfall.success=Alternada a precipitação na dimensão %d.
+commands.myst.downfall.fail.nodim=Nenhuma dimensão alterada.
+
+commands.myst.agebook.usage=/myst-agebook [dim]
+commands.myst.twi.usage=/myst-twi [dim] [verdadeiro|falso]
+commands.myst.meteor.usage=/myst-spawnmeteor
+commands.myst.permissions.usage=/myst-permissions <jogador> <restringir|permitir> <entrada|saída> <todas|dimid>
+commands.myst.chunkregen.usage=/myst-regenchunk [range] [dimId] [chunkX] [chunkZ]
+
+tile.myst.receptacle.name=Receptáculo de Livro
+tile.myst.unstable.name=Efeito de Decaimento
+tile.myst.unstable.blue.name=Decaimento Azul
+tile.myst.unstable.red.name=Decaimento Vermelho
+tile.myst.unstable.purple.name=Decaimento Roxo
+tile.myst.unstable.white.name=Decaimento Branco
+tile.myst.unstable.black.name=Decaimento Preto
+tile.myst.crystal.name=Cristal
+tile.myst.lectern.name=Púlpito
+tile.myst.bookstand.name=Suporte de Livro
+tile.myst.linkmodifier.name=Modificador de Ligação
+tile.myst.bookbinder.name=Prensa
+tile.myst.inkmixer.name=Misturador de Tinta
+tile.myst.linkportal.name=Portal de Ligação
+tile.myst.starfissure.name=Fissura Estelar
+tile.myst.writing_desk.name=Escrivaninha
+
+item.myst.agebook.name=Livro Descritivo
+item.myst.linkbook.name=Livro de Ligação
+item.myst.notebook.name=Caderno
+item.myst.page.name=Página
+item.myst.unlinkedbook.name=Livro de Ligação Desvinculado
+item.myst.writingdesk.name=Escrivaninha
+item.myst.vial.name=Frasco de Tinta
+
+fluid.myst.ink.black=Tinta Preta
+tile.myst.fluid.myst.ink.black.name=Tinta Preta
+
+achievement.myst.symbol=Um Pequeno Passo da Jornada
+achievement.myst.symbol.desc=Encontre um símbolo
+achievement.myst.write=A Arte: Um Princípio
+achievement.myst.write.desc=Copie um Símbolo
+achievement.myst.agebook=Viagem só de Ida
+achievement.myst.agebook.desc=Crie um livro descritivo. Não esqueça que só vai numa direção!
+achievement.myst.linkbook=Amarre um Barbante
+achievement.myst.linkbook.desc=Crie um livro de ligação. Bom, agora você pode voltar!
+achievement.myst.quinn=Chame-me de Quinn
+achievement.myst.quinn.desc=Viaje para uma Era sem um livro de ligação. Melhor esperar que haja um meio de voltar!

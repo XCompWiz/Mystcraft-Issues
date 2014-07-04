@@ -1,0 +1,59 @@
+commands.myst.tpx.usage=/tpx [subject:player] <targer:player | target:dim [x y z]>
+commands.myst.tpx.fail.nosubject=被传送对象无效，传送失败。
+commands.myst.tpx.fail.noworld=无法找到编号为%d的位面，传送失败。
+
+commands.myst.time.usage=/time <set|add> <value> [dim]
+commands.myst.time.fail.noworld=目标位面未被加载。
+commands.myst.time.set=设置时间为%d(在编号为%d的位面中)
+commands.myst.time.set.all=设置所有位面的时间为%d
+commands.myst.time.added=将时间增加%d(在编号为%d的位面中)
+commands.myst.time.added.all=将所有位面的时间增加%d
+
+commands.myst.toggledownfall.usage=/toggledownfall [dim]
+commands.myst.downfall.success=删除编号为%d的位面
+commands.myst.downfall.fail.nodim=没有设置位面
+
+commands.myst.agebook.usage=/myst-agebook [dim]
+commands.myst.twi.usage=/myst-twi [dim] [true|false]
+commands.myst.meteor.usage=/myst-spawnmeteor
+commands.myst.permissions.usage=/myst-permissions <player> <restrict|permit> <entry|depart> <all|dimid>
+commands.myst.chunkregen.usage=/myst-regenchunk [range]
+
+tile.myst.receptacle.name=插槽
+tile.myst.unstable.name=衰变效果
+tile.myst.unstable.blue.name=蓝色衰变物质
+tile.myst.unstable.red.name=红色衰变物质
+tile.myst.unstable.purple.name=紫色衰变物质
+tile.myst.unstable.white.name=白色衰变物质
+tile.myst.unstable.black.name=黑色衰变物质
+tile.myst.crystal.name=水晶
+tile.myst.lectern.name=讲坛
+tile.myst.bookstand.name=书托
+tile.myst.linkmodifier.name=链接修改器
+tile.myst.bookbinder.name=订书机
+tile.myst.inkmixer.name=调墨器
+tile.myst.linkportal.name=传送门
+tile.myst.starfissure.name=星之裂痕
+tile.myst.writing_desk.name=写字台
+
+item.myst.agebook.name=时代书
+item.myst.linkbook.name=链接书
+item.myst.notebook.name=笔记本
+item.myst.page.name=书页
+item.myst.unlinkedbook.name=未链接的书
+item.myst.writingdesk.name=抄写台
+item.myst.vial.name=墨瓶
+
+fluid.myst.ink.black=墨水
+tile.myst.fluid.myst.ink.black.name=墨水
+
+achievement.myst.symbol=千里之旅始于跬步
+achievement.myst.symbol.desc=寻找到徽记
+achievement.myst.write=艺术:入门卷
+achievement.myst.write.desc=拷贝一张徽记
+achievement.myst.agebook=异界单程票
+achievement.myst.agebook.desc=合成一本时代书用以穿越，别忘了这种穿越只是单向的!
+achievement.myst.linkbook=阿里阿德涅的线团
+achievement.myst.linkbook.desc=合成一本链接书，现在你可以回到定义链接的地方了!
+achievement.myst.quinn=我的名字叫Quinn
+achievement.myst.quinn.desc=不携带链接之书穿越到其他位面，希望还能找到归途!

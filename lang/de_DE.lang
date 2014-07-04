@@ -1,0 +1,59 @@
+commands.myst.tpx.usage=/tpx [Subjekt:Spieler] <Ziel:Spieler | Ziel:Dimension [x y z]>
+commands.myst.tpx.fail.nosubject=Zu teleportierendes Subjekt ist ungültig. Kein Teleport.
+commands.myst.tpx.fail.noworld=Welt für Dimension %d nicht gefunden. Kein Teleport.
+
+commands.myst.time.usage=/time <set|add> <Wert> [Dimension]
+commands.myst.time.fail.noworld=Zieldimension ist nicht geladen
+commands.myst.time.set=Setze Zeitwert %d für Dimension %d
+commands.myst.time.set.all=Setze Zeitwert %d für alle Dimensionen
+commands.myst.time.added=Addiere %d zum Zeitwert der Dimension %d
+commands.myst.time.added.all=Addiere %d zum Zeitwert aller Dimensionen
+
+commands.myst.toggledownfall.usage=/toggledownfall [Dimension]
+commands.myst.downfall.success=Regen/Schnee für Dimension %d umgeschaltet
+commands.myst.downfall.fail.nodim=Keine Dimension gesetzt
+
+commands.myst.agebook.usage=/myst-agebook [Dimension]
+commands.myst.twi.usage=/myst-twi [Dimension] [true|false]
+commands.myst.meteor.usage=/myst-spawnmeteor
+commands.myst.permissions.usage=/myst-permissions <Spieler> <restrict|permit> <entry|depart> <all|Dimension>
+commands.myst.chunkregen.usage=/myst-regenchunk [Bereich]
+
+tile.myst.receptacle.name=Buchfach
+tile.myst.unstable.name=Zerfallseffekt
+tile.myst.unstable.blue.name=Blauer Zerfall
+tile.myst.unstable.red.name=Roter Zerfall
+tile.myst.unstable.purple.name=Violetter Zerfall
+tile.myst.unstable.white.name=Weißer Zerfall
+tile.myst.unstable.black.name=Schwarzer Zerfall
+tile.myst.crystal.name=Kristall
+tile.myst.lectern.name=Lesepult
+tile.myst.bookstand.name=Buchständer
+tile.myst.linkmodifier.name=Verbindungsmodifizierer
+tile.myst.bookbinder.name=Buchbinder
+tile.myst.inkmixer.name=Tintenmischer
+tile.myst.linkportal.name=Verbindungsportal
+tile.myst.starfissure.name=Sternenkluft
+tile.myst.writing_desk.name=Schreibtisch
+
+item.myst.agebook.name=Beschreibungsbuch
+item.myst.linkbook.name=Verbindungsbuch
+item.myst.notebook.name=Notizbuch
+item.myst.page.name=Seite
+item.myst.unlinkedbook.name=Nicht verbundenes Verbindungsbuch
+item.myst.writingdesk.name=Schreibtisch
+item.myst.vial.name=Tintenampulle
+
+fluid.myst.ink.black=Schwarze Tinte
+tile.myst.fluid.myst.ink.black.name=Schwarze Tinte
+
+achievement.myst.symbol=Ein kleiner Schritt auf der Reise
+achievement.myst.symbol.desc=Finde ein Symbol
+achievement.myst.write=Die Kunst: Grundlagen
+achievement.myst.write.desc=Kopiere ein Symbol
+achievement.myst.agebook=Eine Reise ohne Rückfahrschein
+achievement.myst.agebook.desc=Fertige ein Beschreibungsbuch. Vergesse aber nicht das dies eine Reise ohne Rückfahrschein ist!
+achievement.myst.linkbook=Knüpfe ein Rettungsseil
+achievement.myst.linkbook.desc=Fertige ein Verbindungsbuch. Gut, jetzt hast Du einen Weg zurück!
+achievement.myst.quinn=Nenn mich Quinn
+achievement.myst.quinn.desc=Reise ohne Verbindungsbuch in eine Dimension. Aber hoffe auf einen Weg zurück!

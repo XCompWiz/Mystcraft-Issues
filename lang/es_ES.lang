@@ -1,0 +1,59 @@
+commands.myst.tpx.usage=/tpx [jugador a teleportar] <jugador de destino | dimensión [x y z]>
+commands.myst.tpx.fail.nosubject=No se ha podido encontrar al jugador
+commands.myst.tpx.fail.noworld=No se ha podido encontrar la dimensión %d.
+
+commands.myst.time.usage=/time <set(establecer)|add(añadir)> <valor> [dimensión]
+commands.myst.time.fail.noworld=La dimensión de destino aún no se ha cargado.
+commands.myst.time.set=Tiempo ajustado a %d en la dimensión %d
+commands.myst.time.set.all=Tiempo ajustado a %d en todas la dimensiones
+commands.myst.time.added=Se ha añadido %d al tiempo en la dimensión %d
+commands.myst.time.added.all=Se ha añadido %d al tiempo en todas la dimensiones
+
+commands.myst.toggledownfall.usage=/toggledownfall [dimensión]
+commands.myst.downfall.success=La lluvia/nieve ha sido activada/desactivada en la dimensión %d
+commands.myst.downfall.fail.nodim=No se ha especificado dimensión.
+
+commands.myst.agebook.usage=/myst-agebook [dimensión]
+commands.myst.twi.usage=/myst-twi [dimensión] [true(verdadero)|false(falso)]
+commands.myst.meteor.usage=/myst-spawnmeteor
+commands.myst.permissions.usage=/myst-permissions <jugador> <restrict(restringir)|permit(permitir)> <entry(entrada)|depart(salida)> <all(todas)|Número de dimensión>
+commands.myst.chunkregen.usage=/myst-regenchunk [rango] [Número de dimensión] [chunkX] [chunkZ]
+
+tile.myst.receptacle.name=Soporte de libros
+tile.myst.unstable.name=Deterioros
+tile.myst.unstable.blue.name=Deterioro azul
+tile.myst.unstable.red.name=Deterioro rojo
+tile.myst.unstable.purple.name=Deterioro morado
+tile.myst.unstable.white.name=Deterioro blanco
+tile.myst.unstable.black.name=Deterioro negro
+tile.myst.crystal.name=Cuarzo
+tile.myst.lectern.name=Atril
+tile.myst.bookstand.name=Estante
+tile.myst.linkmodifier.name=Editor de enlaces
+tile.myst.bookbinder.name=Encuadernador
+tile.myst.inkmixer.name=Mezclador de tinta
+tile.myst.linkportal.name=Portal de enlace
+tile.myst.starfissure.name=Fisura estelar
+tile.myst.writing_desk.name=Mesa de escritura
+
+item.myst.agebook.name=Libro descriptivo
+item.myst.linkbook.name=Libro de enlace
+item.myst.notebook.name=Cuaderno
+item.myst.page.name=Página
+item.myst.unlinkedbook.name=Libro sin enlazar
+item.myst.writingdesk.name=Mesa de escritura
+item.myst.vial.name=Frasco de tinta
+
+fluid.myst.ink.black=Tinta negra
+tile.myst.fluid.myst.ink.black.name=Tinta negra
+
+achievement.myst.symbol=Pequeño paso del camino
+achievement.myst.symbol.desc=Encuentra un símbolo
+achievement.myst.write=El Arte: Comenzando
+achievement.myst.write.desc=Copiar un símbolo
+achievement.myst.agebook=Billete sin retorno
+achievement.myst.agebook.desc=Elabora un libro descriptivo. ¡Recuerda que solo te permite ir!
+achievement.myst.linkbook=Atando cabos
+achievement.myst.linkbook.desc=Elabora un libro de enlace. ¡Bien! Ahora ya puedes volver.
+achievement.myst.quinn=Me hago llamar Quinn
+achievement.myst.quinn.desc=Viaja hasta una dimensión sin un libro de enlace. ¡Esperemos que haya algún modo de salir!
