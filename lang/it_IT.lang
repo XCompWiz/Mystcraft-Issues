@@ -1,17 +1,17 @@
-commands.myst.tpx.usage=/tpx [subject:player] <target:player | target:dim [x y z]>
-commands.myst.tpx.fail.nosubject=Soggetto di teletrasporto invalido. Nessun tp.
-commands.myst.tpx.fail.noworld=Mondo per dimensione %d non raggiungibile. Nessun tp.
+commands.myst.tpx.usage=/tpx [soggetto:player] <obiettivo:player | obiettivo:dim [x y z]>
+commands.myst.tpx.fail.nosubject=L'obiettivo specificato non è valido.
+commands.myst.tpx.fail.noworld=Il mondo della dimensione %d non è raggiungibile.
 
-commands.myst.time.usage=/time <set|add> <value> [dim]
-commands.myst.time.fail.noworld=La Dimensione non è stata caricata
-commands.myst.time.set=Modifica l'ora a %d nella dimensione %d
-commands.myst.time.set.all=Modifica l'ora a %d in tutte le dimensioni
-commands.myst.time.added=Aggiunto %d all'ora nella dimensione %d
-commands.myst.time.added.all=Aggiunto %d all'ora di tutte le dimensioni
+commands.myst.time.usage=/time <set|add> <valore> [dim]
+commands.myst.time.fail.noworld=La dimensione non è stata caricata
+commands.myst.time.set=Impostato il tempo a %d nella dimensione %d
+commands.myst.time.set.all=Impostato il tempo a %d in tutte le dimensioni
+commands.myst.time.added=Aggiunto %d al tempo nella dimensione %d
+commands.myst.time.added.all=Aggiunto %d al tempo di tutte le dimensioni
 
 commands.myst.toggledownfall.usage=/toggledownfall [dim]
-commands.myst.downfall.success=Le precipitazioni sono state attivate/disattivate  nella dimensione %d
-commands.myst.downfall.fail.nodim=Nessuna dimensione precisata.
+commands.myst.downfall.success=Le precipitazioni sono state attivate/disattivate nella dimensione %d
+commands.myst.downfall.fail.nodim=Nessuna dimensione specificata.
 
 commands.myst.agebook.usage=/myst-agebook [dim]
 commands.myst.twi.usage=/myst-twi [dim] [true|false]
@@ -20,19 +20,19 @@ commands.myst.permissions.usage=/myst-permissions <player> <restrict|permit> <en
 commands.myst.chunkregen.usage=/myst-regenchunk [range] [dimId] [chunkX] [chunkZ]
 
 tile.myst.receptacle.name=Fessura per libro
-tile.myst.unstable.name=Effetto di decomposizione
-tile.myst.unstable.blue.name=Decomposizione blu
-tile.myst.unstable.red.name=Decomposizione rossa
-tile.myst.unstable.purple.name=Decomposizione viola
-tile.myst.unstable.white.name=Decomposizione bianca
-tile.myst.unstable.black.name=Decomposizione nera
+tile.myst.unstable.name=Effetto di instabilità
+tile.myst.unstable.blue.name=Instabilità blu
+tile.myst.unstable.red.name=Instabilità rossa
+tile.myst.unstable.purple.name=Instabilità viola
+tile.myst.unstable.white.name=Instabilità bianca
+tile.myst.unstable.black.name=Instabilità nera
 tile.myst.crystal.name=Cristallo
 tile.myst.lectern.name=Leggio
 tile.myst.bookstand.name=Leggio per libro
 tile.myst.linkmodifier.name=Modificatore di collegamenti
 tile.myst.bookbinder.name=Rilegatore di libri
-tile.myst.inkmixer.name=Mischiatore di inchiostro
-tile.myst.linkportal.name=Portale collegato
+tile.myst.inkmixer.name=Mescolatore di inchiostro
+tile.myst.linkportal.name=Portale di collegamento
 tile.myst.starfissure.name=Fessura nelle stelle
 tile.myst.writing_desk.name=Scrivania
 
@@ -48,14 +48,14 @@ item.myst.writingdesk.top.name=Tabellone della scrivania
 item.myst.vial.name=Boccetta di inchiostro
 
 itemGroup.mystcraft.common=Mystcraft
-itemGroup.mystcraft.pages=Mystcraft pagine
+itemGroup.mystcraft.pages=Pagine Mystcraft
 
 fluid.myst.ink.black=Inchiostro nero
 tile.myst.fluid.myst.ink.black.name=Inchiostro nero
 
 achievement.myst.symbol=Un piccolo passo del viaggio
 achievement.myst.symbol.desc=Trova un simbolo
-achievement.myst.write=L'arte: una introduzione
+achievement.myst.write=Un'introduzione all'arte
 achievement.myst.write.desc=Copia un simbolo
 achievement.myst.agebook=Biglietto di sola andata
 achievement.myst.agebook.desc=Crea un Libro descrittivo. non dimenticarti che è un viaggio di sola andata!
@@ -67,7 +67,7 @@ achievement.myst.quinn.desc=Viaggia in una dimensione senza un Libro collegante.
 linkeffect.disarm.name=Disarma
 linkeffect.generateplatform.name=Genera piattaforma
 linkeffect.intralinking.name=Intra-collegante
-linkeffect.maintainmomentum.name=mantieni momentum
+linkeffect.maintainmomentum.name=Mantieni momentum
 linkeffect.relative.name=Collegamento relativo
 
 mystsymbol.BioConHuge.name=Biomi giganti
@@ -95,8 +95,8 @@ mystsymbol.ColorWater.name=Colore dell'acqua
 mystsymbol.ColorWaterNat.name=Colore dell'acqua naturale
 mystsymbol.CryForm.name=Formazioni cristalline
 mystsymbol.DenseOres.name=Minerali densi
-mystsymbol.Dungeons.name=Dungeons
-mystsymbol.EnvAccel.name=accellerato
+mystsymbol.Dungeons.name=Dungeon
+mystsymbol.EnvAccel.name=Accelerato
 mystsymbol.EnvExplosions.name=Esplosioni spontanee
 mystsymbol.EnvLightning.name=Fulmini
 mystsymbol.EnvMeteor.name=Meteore
@@ -133,7 +133,7 @@ mystsymbol.SunDark.name=Sole scuro
 mystsymbol.SunNormal.name=Sole normale
 mystsymbol.Tendrils.name=Vittici
 mystsymbol.TerModSpheres.name=Sfere
-mystsymbol.TerrainAmplified.name=Mondo normale amplificato
+mystsymbol.TerrainAmplified.name=Mondo amplificato
 mystsymbol.TerrainEnd.name=Mondo di isole
 mystsymbol.TerrainNether.name=Mondo di caverne
 mystsymbol.TerrainNormal.name=Mondo normale
