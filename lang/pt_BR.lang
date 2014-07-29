@@ -4,8 +4,8 @@ commands.myst.tpx.fail.noworld=Não foi possível encontrar a dimensão %d. Sem 
 
 commands.myst.time.usage=/time <set|add> <valor> [dim]
 commands.myst.time.fail.noworld=Dimensão alvo não está carregada.
-commands.myst.time.set=Tempo alterado para %d na dimensão %d.
-commands.myst.time.set.all=Tempo alterado para %d em todas as dimensões.
+commands.myst.time.set=Altera o tempo para %d na dimensão %d.
+commands.myst.time.set.all=Altera o tempo para %d em todas as dimensões.
 commands.myst.time.added=Adicionado %d ao tempo da dimensão %d.
 commands.myst.time.added.all=Adicionado %d ao tempo de todas as dimensões.
 
@@ -14,9 +14,9 @@ commands.myst.downfall.success=Alternada a precipitação na dimensão %d.
 commands.myst.downfall.fail.nodim=Nenhuma dimensão alterada.
 
 commands.myst.agebook.usage=/myst-agebook [dim]
-commands.myst.twi.usage=/myst-twi [dim] [verdadeiro|falso]
+commands.myst.twi.usage=/myst-twi [dim] [true|false]
 commands.myst.meteor.usage=/myst-spawnmeteor
-commands.myst.permissions.usage=/myst-permissions <jogador> <restringir|permitir> <entrada|saída> <todas|dimid>
+commands.myst.permissions.usage=/myst-permissions <jogador> <restrict|permit> <entry|depart> <all|dimid>
 commands.myst.chunkregen.usage=/myst-regenchunk [range] [dimId] [chunkX] [chunkZ]
 
 tile.myst.receptacle.name=Receptáculo de Livro
