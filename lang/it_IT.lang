@@ -1,4 +1,4 @@
-commands.myst.tpx.usage=/tpx [soggetto:player] <obiettivo:player | obiettivo:dim [x y z]>
+commands.myst.tpx.usage=/tpx [soggetto:giocatore] <obiettivo:giocatore | obiettivo:dim [x y z]>
 commands.myst.tpx.fail.nosubject=L'obiettivo specificato non è valido.
 commands.myst.tpx.fail.noworld=Il mondo della dimensione %d non è raggiungibile.
 
@@ -16,8 +16,12 @@ commands.myst.downfall.fail.nodim=Nessuna dimensione specificata.
 commands.myst.agebook.usage=/myst-agebook [dim]
 commands.myst.twi.usage=/myst-twi [dim] [true|false]
 commands.myst.meteor.usage=/myst-spawnmeteor
-commands.myst.permissions.usage=/myst-permissions <player> <restrict|permit> <entry|depart> <all|dimid>
+commands.myst.permissions.usage=/myst-permissions <giocatore> <restrict|permit> <entry|depart> <all|dimid>
 commands.myst.chunkregen.usage=/myst-regenchunk [range] [dimId] [chunkX] [chunkZ]
+
+entity.Mystcraft.myst.book.name=Libro
+entity.Mystcraft.myst.block.name=Blocco cadente
+entity.Mystcraft.myst.meteor.name=Meteora
 
 tile.myst.receptacle.name=Fessura per libro
 tile.myst.unstable.name=Effetto d'instabilità
@@ -38,7 +42,9 @@ tile.myst.writing_desk.name=Scrivania
 
 item.myst.agebook.name=Libro descrittivo
 item.myst.linkbook.name=Libro collegante
-item.myst.notebook.name=Taccuino
+item.myst.folder.name=Cartella per collazione
+item.myst.portfolio.name=Portafoglio per simboli
+item.myst.booster.name=Taccuino sigillato
 item.myst.page.blank.name=Pagina bianca
 item.myst.page.panel.name=Pagina con pannello collegante
 item.myst.page.symbol.name=Pagina
@@ -46,6 +52,7 @@ item.myst.unlinkedbook.name=Libro non collegato
 item.myst.writingdesk.name=Scrivania
 item.myst.writingdesk.top.name=Tabellone della scrivania
 item.myst.vial.name=Boccetta d'inchiostro
+item.myst.glasses.name=Occhiali di XComp
 
 itemGroup.mystcraft.common=Mystcraft
 itemGroup.mystcraft.pages=Pagine Mystcraft
@@ -70,14 +77,23 @@ linkeffect.intralinking.name=Intra-collegante
 linkeffect.maintainmomentum.name=Mantieni momentum
 linkeffect.relative.name=Collegamento relativo
 
-myst.symbol.BioConHuge.name=Biomi giganti
-myst.symbol.BioConLarge.name=Biomi grandi
-myst.symbol.BioConMedium.name=Biomi medi
-myst.symbol.BioConNative.name=Controllo di biomi nativo
-myst.symbol.BioConSingle.name=Bioma singolo
-myst.symbol.BioConSmall.name=Biomi piccoli
-myst.symbol.BioConTiled.name=Biomi a scacchiera
-myst.symbol.BioConTiny.name=Biomi minuscoli
+instability.bonus.death=%s è stato ucciso da %s, sbloccando stabilità extra!
+instability.bonus.death.partial=%s è morto.  Sbloccando parte della stabilità extra.  Uccidilo personalmente per sbloccare il resto!
+instability.bonus.death.alert=%s è entrato nell'era.  Uccidilo per sbloccare un bonus di stabilità temporaneo nell'era!
+
+instability.bonus.troll.death=%s è stato ucciso, azzerando la penalità di instabilità!
+instability.bonus.troll.alert=%s è entrato nell'era.  L'era sta lentamente diventando meno stabile!  Uccidilo per azzerare la penalità!
+instability.bonus.troll.left=%s è uscito dall'era.  La penalità di instabilità scomparirà lentamente.
+
+myst.symbol.BioConGrid.name=Distribuzione a griglia dei biomi
+myst.symbol.BioConHuge.name=Distribuzione di biomi giganti
+myst.symbol.BioConLarge.name=Distribuzione di biomi grandi
+myst.symbol.BioConMedium.name=Distribuzione di biomi medi
+myst.symbol.BioConNative.name=Distribuzione nativo di biomi
+myst.symbol.BioConSingle.name=Distribuzione a bioma singolo
+myst.symbol.BioConSmall.name=Distribuzione di biomi piccoli
+myst.symbol.BioConTiled.name=Distribuzione a scacchiera dei biomi
+myst.symbol.BioConTiny.name=Distribuzione di biomi minuscoli
 myst.symbol.Caves.name=Caverne
 myst.symbol.ColorCloud.name=Colore delle nuvole
 myst.symbol.ColorCloudNat.name=Colore delle nuvole naturale
