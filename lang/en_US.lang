@@ -1,3 +1,8 @@
+myst.profiling.running=Expect Lag (Profiling)
+myst.profiling.running.message=Mystcraft is baking a cake.
+myst.profiling.complete=Ding!
+myst.profiling.complete.message=Mystcraft Profiling Complete
+
 commands.myst.tpx.usage=/tpx [subject:player] <target:player | target:dim [x y z]>
 commands.myst.tpx.fail.nosubject=Teleport subject invalid. No tp.
 commands.myst.tpx.fail.noworld=Could not get world for dimension %d. No tp.
