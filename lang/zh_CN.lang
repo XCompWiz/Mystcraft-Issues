@@ -19,6 +19,10 @@ commands.myst.meteor.usage=/myst-spawnmeteor
 commands.myst.permissions.usage=/myst-permissions <player> <restrict|permit> <entry|depart> <all|dimid>
 commands.myst.chunkregen.usage=/myst-regenchunk [range]
 
+entity.Mystcraft.myst.book.name=书
+entity.Mystcraft.myst.block.name=坠落方块
+entity.Mystcraft.myst.meteor.name=陨石
+
 tile.myst.receptacle.name=插槽
 tile.myst.unstable.name=衰变效果
 tile.myst.unstable.blue.name=蓝色衰变物质
@@ -38,6 +42,9 @@ tile.myst.writing_desk.name=书写台
 
 item.myst.agebook.name=时代书
 item.myst.linkbook.name=链接书
+item.myst.folder.name=校订夹
+item.myst.portfolio.name=徽记夹
+item.myst.booster.name=密封笔记本
 item.myst.notebook.name=笔记本
 item.myst.page.blank.name=空白书页
 item.myst.page.panel.name=链接板书页
@@ -46,6 +53,7 @@ item.myst.unlinkedbook.name=未链接的书
 item.myst.writingdesk.name=书写台
 item.myst.writingdesk.top.name=书写台底板
 item.myst.vial.name=墨瓶
+item.myst.glasses.name=XComp的护目镜
 
 itemGroup.mystcraft.common=神秘岛
 itemGroup.mystcraft.pages=神秘岛书页
@@ -70,10 +78,19 @@ linkeffect.intralinking.name=时代内链接
 linkeffect.maintainmomentum.name=保持动力
 linkeffect.relative.name=相关链接
 
+instability.bonus.death=%s已经被%s杀死,正在激活稳定奖励!
+instability.bonus.death.partial=%s已经死亡.正在解锁部分稳定奖励.亲手杀死他们将解锁全部的稳定奖励!
+instability.bonus.death.alert=%s已经闯入这个世界.去杀了他们,为了获得当前世界临时的稳定奖励!
+
+instability.bonus.troll.death=%s已经被杀死,正在重置不稳定惩罚!
+instability.bonus.troll.alert=%s进入到这个世界.这个世界会慢慢变得更加不稳定.杀死他们可以重置不稳定惩罚!
+instability.bonus.troll.left=%s已经离开这个世界.不稳定惩罚会逐渐失效.
+
+myst.symbol.BioConGrid.name=格型生物群系
 myst.symbol.BioConHuge.name=巨型生物群系
 myst.symbol.BioConLarge.name=大型生物群系
 myst.symbol.BioConMedium.name=中型生物群系
-myst.symbol.BioConNative.name=本地生物群系控制器
+myst.symbol.BioConNative.name=本地生物群系
 myst.symbol.BioConSingle.name=单一生物群系
 myst.symbol.BioConSmall.name=小型生物群系
 myst.symbol.BioConTiled.name=附加生物群系
