@@ -1,7 +1,7 @@
-myst.profiling.running=Aspetta Ritardo (Profiling)
-myst.profiling.running.message=Mystcraft infornando una torta.
+myst.profiling.running=Aspettati Lag (Profilatura)
+myst.profiling.running.message=Mystcraft sta infornando una torta.
 myst.profiling.complete=Ding!
-myst.profiling.complete.message=Mystcraft Profilatura é Completa
+myst.profiling.complete.message=Completata Profilatura Mystcraft
 
 commands.myst.tpx.usage=/tpx [soggetto:giocatore] <obiettivo:giocatore | obiettivo:dim [x y z]>
 commands.myst.tpx.fail.nosubject=L'obiettivo specificato non è valido.
@@ -37,7 +37,7 @@ tile.myst.unstable.white.name=Instabilità bianca
 tile.myst.unstable.black.name=Instabilità nera
 tile.myst.crystal.name=Cristallo
 tile.myst.lectern.name=Leggio
-tile.myst.bookstand.name=Leggio per un libro
+tile.myst.bookstand.name=Leggio per libro
 tile.myst.linkmodifier.name=Modificatore di collegamenti
 tile.myst.bookbinder.name=Rilegatore di libri
 tile.myst.inkmixer.name=Mescolatore d'inchiostro
@@ -83,12 +83,12 @@ linkeffect.maintainmomentum.name=Mantieni momentum
 linkeffect.relative.name=Collegamento relativo
 
 instability.bonus.death=%s è stato ucciso da %s, sbloccando stabilità extra!
-instability.bonus.death.partial=%s è morto.  Sbloccando parte della stabilità extra.  Uccidilo personalmente per sbloccare il resto!
+instability.bonus.death.partial=%s è morto. Sbloccando parte della stabilità extra. Uccidilo personalmente per sbloccare il resto!
 instability.bonus.death.alert=%s è entrato nell'era.  Uccidilo per sbloccare un bonus di stabilità temporaneo nell'era!
 
 instability.bonus.troll.death=%s è stato ucciso, azzerando la penalità di instabilità!
-instability.bonus.troll.alert=%s è entrato nell'era.  L'era sta lentamente diventando meno stabile!  Uccidilo per azzerare la penalità!
-instability.bonus.troll.left=%s è uscito dall'era.  La penalità di instabilità scomparirà lentamente.
+instability.bonus.troll.alert=%s è entrato nell'era. L'era sta lentamente diventando meno stabile! Uccidilo per azzerare la penalità!
+instability.bonus.troll.left=%s è uscito dall'era. La penalità di instabilità scomparirà lentamente.
 
 myst.symbol.BioConGrid.name=Distribuzione a griglia dei biomi
 myst.symbol.BioConHuge.name=Distribuzione di biomi giganti
