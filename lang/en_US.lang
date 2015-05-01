@@ -62,6 +62,22 @@ item.myst.glasses.name=XComp's Glasses
 itemGroup.mystcraft.common=Mystcraft
 itemGroup.mystcraft.pages=Mystcraft Pages
 
+myst.creative.notebook.wrapper=Spawned (%s)
+myst.creative.notebook.all=All Symbols
+myst.creative.notebook.biomedist=Biome Distributions
+myst.creative.notebook.celestials=Celestials
+myst.creative.notebook.effects=Effects
+myst.creative.notebook.lighting=Lighting
+myst.creative.notebook.modbasic=Modifiers, Basic
+myst.creative.notebook.modbiome=Modifiers, Biomes
+myst.creative.notebook.modblock=Modifiers, Block
+myst.creative.notebook.modcolor=Modifiers, Colors
+myst.creative.notebook.populators=Populators
+myst.creative.notebook.terrainalts=Terrain Alterations
+myst.creative.notebook.terrain=World Landscapes
+myst.creative.notebook.visuals=Visuals
+myst.creative.notebook.weather=Weather
+
 fluid.myst.ink.black=Black Ink
 tile.myst.fluid.myst.ink.black.name=Black Ink
 
@@ -89,6 +105,9 @@ instability.bonus.death.alert=%s has entered the age.  Kill them in order to unl
 instability.bonus.troll.death=%s has been killed, resetting the instability penalty!
 instability.bonus.troll.alert=%s has entered the age.  The age will slowly become less stable!  Kill them to reset this!
 instability.bonus.troll.left=%s has left the age.  The stability penalty will slowly dissipate.
+
+myst.symbol.biome.wrapper=%s Biome
+myst.symbol.block.wrapper=%s Block
 
 myst.symbol.BioConGrid.name=Grid-form Biome Distribution
 myst.symbol.BioConHuge.name=Huge Biome Distribution

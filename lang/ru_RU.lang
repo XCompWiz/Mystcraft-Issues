@@ -1,3 +1,8 @@
+myst.profiling.running=Возможны притормаживания (Профилирование)
+myst.profiling.running.message=Mystcraft печёт тортик.
+myst.profiling.complete=Динг!
+myst.profiling.complete.message=Профилирование Mystcraft завершено
+
 commands.myst.tpx.usage=/tpx [subject:игрок] <target:игрок | target:измерение [x y z]>
 commands.myst.tpx.fail.nosubject=Субъект телепортации недействителен. Отмена.
 commands.myst.tpx.fail.noworld=Не удалось найти мир для измерения %d. Отмена.
@@ -17,7 +22,7 @@ commands.myst.agebook.usage=/myst-agebook [измерение]
 commands.myst.twi.usage=/myst-twi [измерение] [true|false]
 commands.myst.meteor.usage=/myst-spawnmeteor
 commands.myst.permissions.usage=/myst-permissions <игрок> <restrict|permit> <entry|depart> <all|dimid>
-commands.myst.chunkregen.usage=/myst-regenchunk [диапазон]
+commands.myst.chunkregen.usage=/myst-regenchunk [диапазон] [Id измерения] [chunkX] [chunkZ]
 
 entity.Mystcraft.myst.book.name=Книга
 entity.Mystcraft.myst.block.name=Падающий блок
@@ -42,10 +47,12 @@ tile.myst.writing_desk.name=Письменный стол
 
 item.myst.agebook.name=Описывающая книга
 item.myst.linkbook.name=Связующая книга
-item.myst.notebook.name=Блокнот
+item.myst.folder.name=Папка сопоставления
+item.myst.portfolio.name=Портфолио символов
+item.myst.booster.name=Запечатанный блокнот
 item.myst.page.blank.name=Чистая страница
 item.myst.page.panel.name=Страница связующей панели
-item.myst.page.name=Страница
+item.myst.page.symbol.name=Страница
 item.myst.unlinkedbook.name=Не связанная связующая книга
 item.myst.writingdesk.name=Письменный стол
 item.myst.writingdesk.top.name=Доска письменного стола
@@ -54,6 +61,22 @@ item.myst.glasses.name=Очки разработчика XComp
 
 itemGroup.mystcraft.common=Mystcraft
 itemGroup.mystcraft.pages=Mystcraft: Страницы
+
+myst.creative.notebook.wrapper=Созданное (%s)
+myst.creative.notebook.all=Все символы
+myst.creative.notebook.biomedist=Распределение биомов
+myst.creative.notebook.celestials=Небожители
+myst.creative.notebook.effects=Эффекты
+myst.creative.notebook.lighting=Освещение
+myst.creative.notebook.modbasic=Модификаторы, Основные
+myst.creative.notebook.modbiome=Модификаторы, Биомы
+myst.creative.notebook.modblock=Модификаторы, Блок
+myst.creative.notebook.modcolor=Модификаторы, Цвета
+myst.creative.notebook.populators=Разрущители
+myst.creative.notebook.terrainalts=Изменения местности
+myst.creative.notebook.terrain=Пейзажи мира
+myst.creative.notebook.visuals=Виды
+myst.creative.notebook.weather=Погода
 
 fluid.myst.ink.black=Чёрные чернила
 tile.myst.fluid.myst.ink.black.name=Чёрные чернила
@@ -67,11 +90,11 @@ achievement.myst.agebook.desc=Сделайте описывающую книгу
 achievement.myst.linkbook=Свяжите нить
 achievement.myst.linkbook.desc=Сделайте связующую книгу. Хорошо, теперь Вы можете вернуться обратно!
 achievement.myst.quinn=Зовите меня Куинн
-achievement.myst.quinn.desc=Отправьтесь в измерение без связующей книги. Лучше надейтесь, что выход есть!
+achievement.myst.quinn.desc=Отправьтесь в измерение без связующей книги. Лучше надейтесь что выход есть!
 
 linkeffect.disarm.name=Разоружение
 linkeffect.generateplatform.name=Создаёт платформу
-linkeffect.intralinking.name=Intra-Linking
+linkeffect.intralinking.name=Внутри-соединение
 linkeffect.maintainmomentum.name=Поддержка импульса
 linkeffect.relative.name=Относительное соединение
 
@@ -83,7 +106,10 @@ instability.bonus.troll.death=%s был убит, сброс штрафа нес
 instability.bonus.troll.alert=%s вошёл в измерение. Измерение будет постепенно становиться менее стабильным! Убейте его, чтобы сбросить этот штраф!
 instability.bonus.troll.left=%s покинул измерение. Стабильность будет медленно рассеиваться.
 
-myst.symbol.BioConGrid.name=Биом в форме сетки
+myst.symbol.biome.wrapper=Биом (%s)
+myst.symbol.block.wrapper=Блок (%s)
+
+myst.symbol.BioConGrid.name=Биомы в форме сетки
 myst.symbol.BioConHuge.name=Огромные биомы
 myst.symbol.BioConLarge.name=Большие биомы
 myst.symbol.BioConMedium.name=Средние биомы
@@ -133,7 +159,7 @@ myst.symbol.NetherFort.name=Крепости Нижнего мира
 myst.symbol.NoHorizon.name=Бескрайнее небо
 myst.symbol.NoSea.name=Без морей
 myst.symbol.Obelisks.name=Обелиски
-myst.symbol.PvPOff.name=Анти-PvP
+myst.symbol.PvPOff.name=Без PvP
 myst.symbol.Rainbow.name=Радуга
 myst.symbol.Ravines.name=Овраги
 myst.symbol.Skylands.name=Парящие острова
