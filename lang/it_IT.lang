@@ -62,6 +62,22 @@ item.myst.glasses.name=Occhiali di XComp
 itemGroup.mystcraft.common=Mystcraft
 itemGroup.mystcraft.pages=Pagine Mystcraft
 
+myst.creative.notebook.wrapper=Generato (%s)
+myst.creative.notebook.all=Tutti i simboli
+myst.creative.notebook.biomedist=Distribuzione biomi
+myst.creative.notebook.celestials=Celestiali
+myst.creative.notebook.effects=Effetti
+myst.creative.notebook.lighting=illuminazione
+myst.creative.notebook.modbasic=Modificatori, basi
+myst.creative.notebook.modbiome=Modificatori, biomi
+myst.creative.notebook.modblock=Modificatori, blocco
+myst.creative.notebook.modcolor=Modificatori, colori
+myst.creative.notebook.populators=Popolatori
+myst.creative.notebook.terrainalts=Alterazioni terreno
+myst.creative.notebook.terrain=Paesaggio del mondo
+myst.creative.notebook.visuals=Visuali
+myst.creative.notebook.weather=Tempo atmosferico
+
 fluid.myst.ink.black=Inchiostro nero
 tile.myst.fluid.myst.ink.black.name=Inchiostro nero
 
@@ -89,6 +105,9 @@ instability.bonus.death.alert=%s è entrato nell'era.  Uccidilo per sbloccare un
 instability.bonus.troll.death=%s è stato ucciso, azzerando la penalità di instabilità!
 instability.bonus.troll.alert=%s è entrato nell'era. L'era sta lentamente diventando meno stabile! Uccidilo per azzerare la penalità!
 instability.bonus.troll.left=%s è uscito dall'era. La penalità di instabilità scomparirà lentamente.
+
+myst.symbol.biome.wrapper=Bioma %s
+myst.symbol.block.wrapper=Blocco %s
 
 myst.symbol.BioConGrid.name=Distribuzione a griglia dei biomi
 myst.symbol.BioConHuge.name=Distribuzione di biomi giganti
