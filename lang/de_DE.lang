@@ -1,3 +1,8 @@
+myst.profiling.running=Bitte gehe von etwas Lag aus.
+myst.profiling.running.message=Mystcraft backt einen Kuchen.
+myst.profiling.complete=Ding!
+myst.profiling.complete.message=Mystcraft-Profiling beendet.
+
 commands.myst.tpx.usage=/tpx [Subjekt:Spieler] <Ziel:Spieler | Ziel:Dimension [x y z]>
 commands.myst.tpx.fail.nosubject=Zu teleportierendes Subjekt ist ungültig. Kein Teleport.
 commands.myst.tpx.fail.noworld=Welt für Dimension %d nicht gefunden. Kein Teleport.
@@ -19,6 +24,10 @@ commands.myst.meteor.usage=/myst-spawnmeteor
 commands.myst.permissions.usage=/myst-permissions <Spieler> <restrict|permit> <entry|depart> <all|Dimension>
 commands.myst.chunkregen.usage=/myst-regenchunk [Bereich]
 
+entity.Mystcraft.myst.book.name=Buch
+entity.Mystcraft.myst.block.name=Fallender Block
+entity.Mystcraft.myst.meteor.name=Meteor
+
 tile.myst.receptacle.name=Buchfach
 tile.myst.unstable.name=Zerfallseffekt
 tile.myst.unstable.blue.name=Blauer Zerfall
@@ -38,7 +47,9 @@ tile.myst.writing_desk.name=Schreibtisch
 
 item.myst.agebook.name=Beschreibungsbuch
 item.myst.linkbook.name=Verbindungsbuch
-item.myst.notebook.name=Notizbuch
+item.myst.folder.name=Sortierordner
+item.myst.portfolio.name=Symbol-Portfolio
+item.myst.booster.name=Versiegeltes Notizbuch
 item.myst.page.blank.name=Leere Seite
 item.myst.page.panel.name=Verbindungsseite
 item.myst.page.symbol.name=Symbolseite
@@ -46,9 +57,26 @@ item.myst.unlinkedbook.name=Nicht verbundenes Verbindungsbuch
 item.myst.writingdesk.name=Schreibtisch
 item.myst.writingdesk.top.name=Schreibtischrücken
 item.myst.vial.name=Tintenampulle
+item.myst.glasses.name=XComp's Brille
 
 itemGroup.mystcraft.common=Mystcraft
 itemGroup.mystcraft.pages=Mystcraft-Seiten
+
+myst.creative.notebook.wrapper=(%s) Erschaffen
+myst.creative.notebook.all=Alle Symbole
+myst.creative.notebook.biomedist=Biomverteilung
+myst.creative.notebook.celestials=Himmelskörper
+myst.creative.notebook.effects=Effekte
+myst.creative.notebook.lighting=Beleuchtung
+myst.creative.notebook.modbasic=Modifikatoren: Grundlegendes
+myst.creative.notebook.modbiome=Modifikatoren: Biome
+myst.creative.notebook.modblock=Modifikatoren: Blöcke
+myst.creative.notebook.modcolor=Modifikatoren: Farben
+myst.creative.notebook.populators=Populatoren
+myst.creative.notebook.terrainalts=Terrainveränderungen
+myst.creative.notebook.terrain=Welt-Landschaften
+myst.creative.notebook.visuals=Visuelles
+myst.creative.notebook.weather=Wetter
 
 fluid.myst.ink.black=Schwarze Tinte
 tile.myst.fluid.myst.ink.black.name=Schwarze Tinte
@@ -70,6 +98,18 @@ linkeffect.intralinking.name=Intra-Linking
 linkeffect.maintainmomentum.name=Schwung beibehalten
 linkeffect.relative.name=Relative Verbindung
 
+instability.bonus.death=%s wurde von %s getötet, Bonusstabilität wird aktiviert!
+instability.bonus.death.partial=%s ist gestorben. Teil der Bonusstabilität wird freigeschaltet. Um sie vollständig freizuschalten, töte die Person persönlich.
+instability.bonus.death.alert=%s hat die Welt betreten. Töte die Person, um einen temporären Stabilitätsbonus zu erhalten!
+
+instability.bonus.troll.death=%s wurde getötet, zusätzliche Instabilität wird zurückgesetzt!
+instability.bonus.troll.alert=%s hat die Welt betreten. Sie wird nun langsam weniger stabil werden! Töte die Person, um dies zurückzusetzen!
+instability.bonus.troll.left=%s hat die Welt verlassen. Die Instabilität wird sich langsam wieder normalisieren.
+
+myst.symbol.biome.wrapper=Biom: %s
+myst.symbol.block.wrapper=Block: %s
+
+myst.symbol.BioConGrid.name=Netzform-Biomverteilung
 myst.symbol.BioConHuge.name=Riesige Biome
 myst.symbol.BioConLarge.name=Große Biome
 myst.symbol.BioConMedium.name=Mittelgroße Biome
