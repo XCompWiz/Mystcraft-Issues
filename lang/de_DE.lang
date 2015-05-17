@@ -3,6 +3,8 @@ myst.profiling.running.message=Mystcraft backt einen Kuchen.
 myst.profiling.complete=Ding!
 myst.profiling.complete.message=Mystcraft-Profiling beendet.
 
+commands.myst.generic.player.notfound=Konnte keinen Spieler mit dem Namen %s finden.
+
 commands.myst.tpx.usage=/tpx [Subjekt:Spieler] <Ziel:Spieler | Ziel:Dimension [x y z]>
 commands.myst.tpx.fail.nosubject=Zu teleportierendes Subjekt ist ungültig. Kein Teleport.
 commands.myst.tpx.fail.noworld=Welt für Dimension %d nicht gefunden. Kein Teleport.
