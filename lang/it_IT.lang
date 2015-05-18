@@ -3,6 +3,8 @@ myst.profiling.running.message=Mystcraft sta infornando una torta.
 myst.profiling.complete=Ding!
 myst.profiling.complete.message=Completata Profilatura Mystcraft
 
+commands.myst.generic.player.notfound=Impossibile trovare il giocatore col nome: %s
+
 commands.myst.tpx.usage=/tpx [soggetto:giocatore] <obiettivo:giocatore | obiettivo:dim [x y z]>
 commands.myst.tpx.fail.nosubject=L'obiettivo specificato non è valido.
 commands.myst.tpx.fail.noworld=Il mondo della dimensione %d non è raggiungibile.
@@ -187,4 +189,5 @@ myst.symbol.WeatherSlow.name=Tempo atmosferico lento
 myst.symbol.WeatherSnow.name=Neve eterna
 myst.symbol.WeatherStorm.name=Tempesta eterna
 myst.symbol.Villages.name=Villaggi
+
 myst.symbol.Void.name=Mondo vuoto
