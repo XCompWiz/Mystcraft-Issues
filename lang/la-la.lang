@@ -17,7 +17,7 @@ commands.myst.time.added=Accensus %d tempori in saeculo %d
 commands.myst.time.added.all=Accensus %d tempori in saeculis omnibus
 
 commands.myst.toggledownfall.usage=/toggledownfall [dim]
-commands.myst.downfall.success=Permutātus praecipitationem in saeculo %d
+commands.myst.downfall.success=Permutatus praecipitationem in saeculo %d
 commands.myst.downfall.fail.nodim=Nullum saeculum status
 
 commands.myst.agebook.usage=/myst-agebook [dim]
@@ -54,10 +54,10 @@ item.myst.folder.name=Collectorium
 item.myst.portfolio.name=Scrinium
 item.myst.booster.name=Acervus Signorum
 item.myst.page.blank.name=Pagina Pura
-item.myst.page.panel.name=Pāgina Abacis Nexus
+item.myst.page.panel.name=Pagina Abacis Nexus
 item.myst.page.symbol.name=Pagina
 item.myst.unlinkedbook.name=Nonnexilis Liber Nexus
-item.myst.writingdesk.name=Mēnsa Scrīptōria
+item.myst.writingdesk.name=Mensa Scriptoria
 item.myst.writingdesk.top.name=Tabula Mensae Scriptoriae
 item.myst.vial.name=Laguncula Atramenti
 item.myst.glasses.name=Perspicillum XCompi
@@ -81,7 +81,7 @@ myst.creative.notebook.terrain=Agri
 myst.creative.notebook.visuals=Species
 myst.creative.notebook.weather=Caelum
 
-fluid.myst.ink.black=Atrāmentum Atrum
+fluid.myst.ink.black=Atramentum Atrum
 tile.myst.fluid.myst.ink.black.name=Atramentum Atrum
 
 achievement.myst.symbol=Paulus Ascensus in Itineris
