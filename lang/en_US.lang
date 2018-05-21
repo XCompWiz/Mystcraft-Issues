@@ -99,6 +99,7 @@ achievement.myst.quinn.desc=Travel to a dimension without a linking book. Better
 linkeffect.disarm.name=Disarm
 linkeffect.generateplatform.name=Generate Platform
 linkeffect.intralinking.name=Intra-Linking
+linkeffect.intralinkingonly.name=Intra-Linking Only
 linkeffect.maintainmomentum.name=Maintain Momentum
 linkeffect.relative.name=Relative Link
 
