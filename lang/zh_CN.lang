@@ -13,7 +13,7 @@ commands.myst.time.usage=/time <set|add> <value> [dim]
 commands.myst.time.fail.noworld=目标维度未被加载。
 commands.myst.time.set=维度 %2$d 的时间已设为 %1$d
 commands.myst.time.set.all=所有维度的时间已设为 %d
-commands.myst.time.added=将维度 $2%d 的时间增加 %1$d
+commands.myst.time.added=将维度 %2$d 的时间增加 %1$d
 commands.myst.time.added.all=将所有维度的时间增加 %d
 
 commands.myst.toggledownfall.usage=/toggledownfall [dim]
