@@ -1,0 +1,196 @@
+﻿myst.profiling.running=Exspecta Segnitia (Percensens)
+myst.profiling.running.message=Mystcraft libum attorret.
+myst.profiling.complete=Clangere!
+myst.profiling.complete.message=Percensens Consummatus Est.
+
+commands.myst.generic.player.notfound=Non possum invenire lusorem appellatus: %s
+
+commands.myst.tpx.usage=/tpx [subjectus:lusor] <scopus:lusor | scopus:dim [x y z]>
+commands.myst.tpx.fail.nosubject=Subjectus teleportandi irritus est. Nullus TP.
+commands.myst.tpx.fail.noworld=Non potuerunt impetrare saeculum %d. Nullus TP.
+
+commands.myst.time.usage=/time <set|add> <numerus> [dim]
+commands.myst.time.fail.noworld=Scopus saeculum non refertus.
+commands.myst.time.set=Siste tempus ad %d in saeculo %d
+commands.myst.time.set.all=Siste tempus ad %d in saeculis omnibus
+commands.myst.time.added=Accensus %d tempori in saeculo %d
+commands.myst.time.added.all=Accensus %d tempori in saeculis omnibus
+
+commands.myst.toggledownfall.usage=/toggledownfall [dim]
+commands.myst.downfall.success=Permutatus praecipitationem in saeculo %d
+commands.myst.downfall.fail.nodim=Nullum saeculum status
+
+commands.myst.agebook.usage=/myst-agebook [dim]
+commands.myst.twi.usage=/myst-twi [dim] [true|false]
+commands.myst.meteor.usage=/myst-spawnmeteor
+commands.myst.permissions.usage=/myst-permissions <lusor> <restrict|permit> <entry|depart> <all|dimid>
+commands.myst.chunkregen.usage=/myst-regenchunk [range] [dimId] [chunkX] [chunkZ]
+
+
+entity.Mystcraft.myst.book.name=Liber
+entity.Mystcraft.myst.block.name=Cubus Cadens
+entity.Mystcraft.myst.meteor.name=Cometes
+
+tile.myst.receptacle.name=Receptaculum Libro
+tile.myst.unstable.name=Effectus Instabilitatis
+tile.myst.unstable.blue.name=Instabilitas Caeruleus
+tile.myst.unstable.red.name=Instabilitas Ruber
+tile.myst.unstable.purple.name=Instabilitas Purpureus
+tile.myst.unstable.white.name=Instabilitas Albus
+tile.myst.unstable.black.name=Instabilitas Ater
+tile.myst.crystal.name=Crystallum
+tile.myst.lectern.name=Pulpitum
+tile.myst.bookstand.name=Fulmentum Libri
+tile.myst.linkmodifier.name=Nexus Mutator
+tile.myst.bookbinder.name=Liber Glutinator
+tile.myst.inkmixer.name=Mortarium Atramenti
+tile.myst.linkportal.name=Nexus Porta
+tile.myst.starfissure.name=Foramen Stellarum
+tile.myst.writing_desk.name=Mensa Scriptoria
+
+item.myst.agebook.name=Liber Descriptivus
+item.myst.linkbook.name=Liber Nexus
+item.myst.folder.name=Collectorium
+item.myst.portfolio.name=Scrinium
+item.myst.booster.name=Acervus Signorum
+item.myst.page.blank.name=Pagina Pura
+item.myst.page.panel.name=Pagina Abacis Nexus
+item.myst.page.symbol.name=Pagina
+item.myst.unlinkedbook.name=Nonnexilis Liber Nexus
+item.myst.writingdesk.name=Mensa Scriptoria
+item.myst.writingdesk.top.name=Tabula Mensae Scriptoriae
+item.myst.vial.name=Laguncula Atramenti
+item.myst.glasses.name=Perspicillum XCompi
+
+itemGroup.mystcraft.common=Mystcraft
+itemGroup.mystcraft.pages=Pagina Mystcraft
+
+myst.creative.notebook.wrapper=Generavisse (%s)
+myst.creative.notebook.all=Aliae Signa 
+myst.creative.notebook.biomedist=Distributio Loca
+myst.creative.notebook.celestials=Orbes Caelestia
+myst.creative.notebook.effects=Effecti
+myst.creative.notebook.lighting=Illuminatio
+myst.creative.notebook.modbasic=Immutatores, Simplex
+myst.creative.notebook.modbiome=Immutatores, Loca
+myst.creative.notebook.modblock=Immutatores, Cubi
+myst.creative.notebook.modcolor=Immutatores, Colores
+myst.creative.notebook.populators=Lineamenta
+myst.creative.notebook.terrainalts=Agri Alternationes
+myst.creative.notebook.terrain=Agri
+myst.creative.notebook.visuals=Species
+myst.creative.notebook.weather=Caelum
+
+fluid.myst.ink.black=Atramentum Atrum
+tile.myst.fluid.myst.ink.black.name=Atramentum Atrum
+
+achievement.myst.symbol=Paulus Ascensus in Itineris
+achievement.myst.symbol.desc=Reperi Signum
+achievement.myst.write=Ars: Liber Elementarius
+achievement.myst.write.desc=Trafer Signum
+achievement.myst.agebook=Iter Solo Uno Directione
+achievement.myst.agebook.desc=Crea Liberum Saeculum. Noli Obliviscere: Iter Solo Uno Directione Est!
+achievement.myst.linkbook=Adnecte Filum
+achievement.myst.linkbook.desc=Crea Liberum Nexus. Macte, Iam Remeare Potes! 
+achievement.myst.quinn=Appelare Me Quinn
+achievement.myst.quinn.desc=Perveni Saeculo Sine Libero Nexo.  Spere Est Exitus!
+
+linkeffect.disarm.name=Disarma
+linkeffect.generateplatform.name=Genera Suggestus
+linkeffect.intralinking.name=Intra-Nectere
+linkeffect.maintainmomentum.name=Obtine Momentum
+linkeffect.relative.name=Nexus Relativus
+
+instability.bonus.death=%s interfectus est a/ab %s, commovens addititia stabilitatem!
+instability.bonus.death.partial=%s mortuus est, commovens pars addititiae stabilitatis.  Interfice eum/eam ipse commovere omne.
+instability.bonus.death.alert=%s intravit saeculum.  Interfice eum/eam ipse commovere temporalem addititia stabilitatem in hoc saeculo!
+
+instability.bonus.troll.death=%s interfectus est, re-sistens poenam instabilitatis!
+instability.bonus.troll.alert=%s saeculum intravit.  Saeculum lente instabilitatem augescet!  Interfice eum/eam re-sistere!
+instability.bonus.troll.left=%s saeculum exivit.  Poena instabilitatis lente diffundet.
+
+myst.symbol.biome.wrapper=%s Loca
+myst.symbol.block.wrapper=%s Cubus
+
+myst.symbol.biocongrid.name=Scutulata Distributio Locorum
+myst.symbol.bioconhuge.name=Maxima Distributio Locorum
+myst.symbol.bioconlarge.name=Magna Distributio Locorum
+myst.symbol.bioconmedium.name=Media Distributio Locorum
+myst.symbol.bioconnative.name=Nativa Distributio Locorum
+myst.symbol.bioconsingle.name=Singula Distributio Locorum
+myst.symbol.bioconsmall.name=Paula Distributio Locorum
+myst.symbol.biocontiled.name=Latericia Distributio Locorum
+myst.symbol.biocontiny.name=Pusilla Distributio Locorum
+myst.symbol.caves.name=Speluncae
+myst.symbol.colorcloud.name=Color Nubili
+myst.symbol.colorcloudnat.name=Color Nubili Nativus
+myst.symbol.colorfog.name=Color Nebulae
+myst.symbol.colorfognat.name=Color Nebulae Nativus
+myst.symbol.colorfoliage.name=Color Foliorum
+myst.symbol.colorfoliagenat.name=Color Foliorum Nativus
+myst.symbol.colorgrass.name=Color Graminis
+myst.symbol.colorgrassnat.name=Color Graminis Nativus
+myst.symbol.colorhorizon.name=Color Solis Occasus
+myst.symbol.colorsky.name=Color Caeli
+myst.symbol.colorskynat.name=Color Caeli Nativus
+myst.symbol.colorskynight.name=Color Caeli Noctis
+myst.symbol.colorwater.name=Color Aquae
+myst.symbol.colorwaternat.name=Color Aquae Nativus
+myst.symbol.cryform.name=Formae Crystallorum
+myst.symbol.denseores.name=Aera Densa
+myst.symbol.dungeons.name=Carceres
+myst.symbol.envaccel.name=Acceleratus
+myst.symbol.envexplosions.name=Fragores
+myst.symbol.envlightning.name=Fulmina
+myst.symbol.envmeteor.name=Cometae
+myst.symbol.envscorch.name=Incendens Superficiem
+myst.symbol.featurelargedummy.name=Sine Magnis Proprietatibus
+myst.symbol.featuremediumdummy.name=Sine Mediis Proprietatibus
+myst.symbol.featuresmalldummy.name=Sine Paulis Proprietatibus
+myst.symbol.flat.name=Saeculum Planum
+myst.symbol.floatislands.name=Insulae Volitantes
+myst.symbol.genspikes.name=Clavi Magni
+myst.symbol.hugetrees.name=Arbores Ingentes
+myst.symbol.lakesdeep.name=Lacus Subterranei
+myst.symbol.lakessurface.name=Lacus
+myst.symbol.lightingbright.name=Illuminatio Lucida
+myst.symbol.lightingdark.name=Illuminatio Obscura
+myst.symbol.lightingnormal.name=Illuminatio Nativa
+myst.symbol.mineshafts.name=Fodinae
+myst.symbol.modclear.name=Purga Immutatores Supervacui
+myst.symbol.modgradient.name=Commisce Colores
+myst.symbol.moondark.name=Luna Obscura
+myst.symbol.moonnormal.name=Luna Nativa
+myst.symbol.netherfort.name=Castella Infernae
+myst.symbol.nohorizon.name=Sine Orbe Finienti
+myst.symbol.nosea.name=Sine Maribus
+myst.symbol.obelisks.name=Obelisci
+myst.symbol.pvpoff.name=Interficiens Alii Lusores Vetitus Est
+myst.symbol.rainbow.name=Arcus Caelestis
+myst.symbol.ravines.name=Vallis Praerupta
+myst.symbol.skylands.name=Terracaeli
+myst.symbol.starfissure.name=Foramen Stellarum
+myst.symbol.starsdark.name=Stellae Obscurae
+myst.symbol.starsendsky.name=Stellae Caeli Finalis 
+myst.symbol.starsnormal.name=Stellae Nativae
+myst.symbol.starstwinkle.name=Stellae Micans
+myst.symbol.strongholds.name=Arces
+myst.symbol.sundark.name=Sol Obscurus
+myst.symbol.sunnormal.name=Sol Nativus
+myst.symbol.tendrils.name=Pampinaria
+myst.symbol.termodspheres.name=Globi
+myst.symbol.terrainamplified.name=Saeculum Nativum Amplificatus
+myst.symbol.terrainend.name=Saeculum Insulae Solitariae
+myst.symbol.terrainnether.name=Saeculum Cavernarum
+myst.symbol.terrainnormal.name=Saeculum Terrae Nativae
+myst.symbol.weathercloudy.name=Caelum Nubilum
+myst.symbol.weatherfast.name=Caelum Rapidum
+myst.symbol.weathernorm.name=Caelum Natīvum
+myst.symbol.weatheroff.name=Sine Caelo
+myst.symbol.weatheron.name=Caelum Aeternum
+myst.symbol.weatherrain.name=Pluvia Aeterna
+myst.symbol.weatherslow.name=Caelum Segne
+myst.symbol.weathersnow.name=Nix Aeterna
+myst.symbol.weatherstorm.name=Tempestates Aeternae
+myst.symbol.villages.name=Oppida
+myst.symbol.void.name=Saeculum Vacuitatis
