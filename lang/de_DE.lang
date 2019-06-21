@@ -26,9 +26,9 @@ commands.myst.meteor.usage=/myst-spawnmeteor
 commands.myst.permissions.usage=/myst-permissions <Spieler> <restrict|permit> <entry|depart> <all|Dimension>
 commands.myst.chunkregen.usage=/myst-regenchunk [Bereich]
 
-entity.Mystcraft.myst.book.name=Buch
-entity.Mystcraft.myst.block.name=Fallender Block
-entity.Mystcraft.myst.meteor.name=Meteor
+entity.myst.book.name=Buch
+entity.myst.block.name=Fallender Block
+entity.myst.meteor.name=Meteor
 
 tile.myst.receptacle.name=Buchfach
 tile.myst.unstable.name=Zerfallseffekt

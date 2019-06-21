@@ -27,9 +27,9 @@ commands.myst.permissions.usage=/myst-permissions <lusor> <restrict|permit> <ent
 commands.myst.chunkregen.usage=/myst-regenchunk [range] [dimId] [chunkX] [chunkZ]
 
 
-entity.Mystcraft.myst.book.name=Liber
-entity.Mystcraft.myst.block.name=Cubus Cadens
-entity.Mystcraft.myst.meteor.name=Cometes
+entity.myst.book.name=Liber
+entity.myst.block.name=Cubus Cadens
+entity.myst.meteor.name=Cometes
 
 tile.myst.receptacle.name=Receptaculum Libro
 tile.myst.unstable.name=Effectus Instabilitatis

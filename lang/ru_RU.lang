@@ -24,9 +24,9 @@ commands.myst.meteor.usage=/myst-spawnmeteor
 commands.myst.permissions.usage=/myst-permissions <игрок> <restrict|permit> <entry|depart> <all|dimid>
 commands.myst.chunkregen.usage=/myst-regenchunk [диапазон] [Id измерения] [chunkX] [chunkZ]
 
-entity.Mystcraft.myst.book.name=Книга
-entity.Mystcraft.myst.block.name=Падающий блок
-entity.Mystcraft.myst.meteor.name=Метеор
+entity.myst.book.name=Книга
+entity.myst.block.name=Падающий блок
+entity.myst.meteor.name=Метеор
 
 tile.myst.receptacle.name=Слот для книги
 tile.myst.unstable.name=Эффект нестабильности

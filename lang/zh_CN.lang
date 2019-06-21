@@ -26,9 +26,9 @@ commands.myst.meteor.usage=/myst-spawnmeteor
 commands.myst.permissions.usage=/myst-permissions <player> <restrict|permit> <entry|depart> <all|dimid>
 commands.myst.chunkregen.usage=/myst-regenchunk [range]
 
-entity.Mystcraft.myst.book.name=书
-entity.Mystcraft.myst.block.name=坠落方块
-entity.Mystcraft.myst.meteor.name=陨石
+entity.myst.book.name=书
+entity.myst.block.name=坠落方块
+entity.myst.meteor.name=陨石
 
 tile.myst.receptacle.name=插槽
 tile.myst.unstable.name=崩坏效果
