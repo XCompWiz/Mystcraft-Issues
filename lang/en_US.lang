@@ -26,9 +26,9 @@ commands.myst.meteor.usage=/myst-spawnmeteor
 commands.myst.permissions.usage=/myst-permissions <player> <restrict|permit> <entry|depart> <all|dimid>
 commands.myst.chunkregen.usage=/myst-regenchunk [range] [dimId] [chunkX] [chunkZ]
 
-entity.Mystcraft.myst.book.name=Book
-entity.Mystcraft.myst.block.name=Falling Block
-entity.Mystcraft.myst.meteor.name=Meteor
+entity.myst.book.name=Book
+entity.myst.block.name=Falling Block
+entity.myst.meteor.name=Meteor
 
 tile.myst.receptacle.name=Book Receptacle
 tile.myst.unstable.name=Decay Effect
